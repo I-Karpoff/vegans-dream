@@ -1,0 +1,110 @@
+/* ====================Section Hero=================== */
+/*======Mobile======*/
+
+.containter-pad-mob {
+  padding-top: 100px;
+}
+
+.section-hero {
+  min-width: 375px;
+  min-height: 812px;
+  background-color: #576f35;
+  background-size: 375px 370px;
+  background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+    url('/img/hero/bg-vegetables-mob.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: 0 auto;
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+}
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .section-hero {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+      url('/img/hero/bg-vegetables-mob@2x.jpg');
+  }
+}
+/*======/Mobile======*/
+/*======Tablet======*/
+@media screen and (min-width: 768px) {
+  .container-pad {
+    padding-top: 122px;
+  }
+  .section-hero {
+    max-width: 768px;
+    min-height: 1024px;
+    background-size: 768px 539px;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+      url('/img/hero/bg-vegetables-tab.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 0 auto;
+  }
+  .hero-title {
+    font-weight: 600;
+    font-size: 76px;
+    margin-bottom: 25px;
+  }
+  .hero-text {
+    max-width: 603px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+@media screen and (min-width: 767px) and (min-resolution: 192dpi) {
+  .section-hero {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+      url('/img/hero/bg-vegetables-tab@2x.jpg');
+  }
+}
+/*======/Tablet======*/
+/*======Desktop======*/
+@media screen and (min-width: 1280px) {
+  .section-hero {
+    max-width: 1280px;
+    min-height: 800px;
+    background-size: 650px 800px;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('/img/hero/bg-vegetables.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 238px 678px 0 100px;
+    margin: 0 auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+    padding: 0;
+    max-width: 502px;
+    max-height: 562px;
+  }
+  .hero-title {
+    margin-bottom: 0;
+  }
+  .hero-text {
+    max-width: 472px;
+    margin-bottom: 50px;
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .section-hero {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+      url('/img/hero/bg-vegetables@2x.jpg');
+  }
+}
+/*======/Desktop======*/
+/* =======================/Hero========================= */

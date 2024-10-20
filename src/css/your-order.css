@@ -67,7 +67,7 @@
     max-width: 1280px;
   }
   .order-container {
-    max-width: 768px;
+    
     padding: 0 32px;
   }
   .your-order{
@@ -154,7 +154,7 @@
     margin: 0 auto;
   }
   .order-container{
-    max-width: 375px;
+    width: 400px;
     margin: 0 auto;
   
     padding: 0 20px;
@@ -393,7 +393,7 @@
   }
   .register-overlay{
     padding-left: 35px;
-        padding-bottom: 100px;
+    padding-bottom: 100px;
     
   }
   .register{
@@ -406,7 +406,7 @@
 }
 
 .card-container {
-  width: 529px;
+  width: 500px;
   padding-right: 50px;
   height: 500px;
 }
@@ -443,5 +443,9 @@
 @media screen and (min-width:768px) and (max-width:1249px){
   .main-photo{
     margin:30px;
+  }
+
+  .order-container {
+    max-width: 768px
   }
 }
